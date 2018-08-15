@@ -21,8 +21,6 @@ body {
 }
 
 #download {
-	display: block;
-	text-align: center;
     font-size: 20px;
     height: 60px;
     background: transparent;
