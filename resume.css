@@ -21,11 +21,9 @@ body {
 }
 
 #download {
-	color: white;
+	display: block;
+	text-align: center;
     font-size: 20px;
-    z-index: 10;
-    float: right;
-    margin-right: 35%;
     height: 60px;
     background: transparent;
     border: solid;
@@ -36,10 +34,8 @@ body {
     cursor: pointer;
     border-width: 2px;
     font-weight: 100;
-    margin-top: 10px;
     font-family: "Maven Pro", "Open Sans", "sans-serif";
     letter-spacing: 3px;
-    font-weight: lighter;
 }
 
 #download:hover {
