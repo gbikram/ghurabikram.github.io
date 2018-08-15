@@ -134,7 +134,7 @@ body {
 }
 
 #navBar {
-	text-align: center;
+	text-align: end;
 	position: fixed;
     background-color: rgba(181, 184, 193, 0.22);
     color: white;
