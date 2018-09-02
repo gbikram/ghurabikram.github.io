@@ -130,8 +130,6 @@ body {
 
 #navBar {
 	text-align: center;
-	position: fixed;
-    background-color: rgba(181, 184, 193, 0.22);
     font-family: helvetica;
     width: 100%;
     font-size: larger;
@@ -243,8 +241,7 @@ body {
 
 #navBar {
     text-align: end;
-    position: fixed;
-    background-color: black;
+    position: absolute;
     color: white;
     font-family: helvetica;
     width: 100%;
@@ -252,8 +249,6 @@ body {
     padding-top: 15px;
     padding-bottom: 10px;
     padding-right: 10px;
-    z-index: 1;
-    box-shadow: rgb(0, 0, 0) 0px 0px 10px;
 }
 
 #end {
