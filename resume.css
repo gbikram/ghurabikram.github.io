@@ -409,5 +409,9 @@ body {
     margin-right: 32%;
   }
 
+  .expHead {
+    text-align: left !important;
+  }
+
 }
 
