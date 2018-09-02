@@ -28,11 +28,10 @@
 	</head>
 
 	<body>
-		<div id="navBar">
+		<div id="navBar" style="text-align:center">
 			<ul>
-				<li><a href="#resume">About</a></li>
-				<li><a href="#Education">Education</a></li>
 				<li><a href="#Experience">Experience</a></li>
+				<li><a href="#Education">Education</a></li>
 				<li><a href="#Projects">Projects</a></li>
 			</ul>
 		</div>
@@ -44,25 +43,85 @@
 			</div>
 		</section>
 
-		<section id="resume">
-			
-			<div id="aboutme">
-				<h2 class="sectionHead">ABOUT ME</h2>
-				<img id="profilepic" src="ppic.jpeg" alt="Profile Pic">
-				<div id="general">
-					<h4>University of Washington</h4>
-					
-					<p>I am an Information Technology &amp; Systems major at the University of Washington. Being a tech-enthusiast, I have always enjoyed exploring various avenues in technology such as design, development, Big Data &amp; Security.</p>
-					
-					<div id="icons">
-						<img class="sumImage" src="https://d30y9cdsu7xlg0.cloudfront.net/png/50232-200.png" alt="bigdata">
-						<img class="sumImage" src="https://d30y9cdsu7xlg0.cloudfront.net/png/62495-200.png" alt="bigdata">
-						<img class="sumImage" id="oddone" src="http://simpleicon.com/wp-content/uploads/responsive-design.png" alt="bigdata">
-					</div>
+		<section id="Experience">
+				<div id="exp">
+					<section id="sectionResume">
+					  <div class="container">
+					  <!-- section TITLE -->
+						<div class="sectionTitle wow fadeInUp">
+						<h1>Experience</h1>
+						</div>
+					  <!-- END section TITLE -->
+	
+					  <div class="resumeEe resumeEd wow fadeInUp" style="border:none;">
+	
+	
+					  <ul class="resumeList">				
+					  <li>
+						<h4 style="text-align: left;"><i class="resumePeriod">Since Aug 2018</i> Back-end Developer, Stably Blockchain Labs</h4>
+						<p>
+						Developed APIs and microservices using Python (Flask) and AWS DynamoDB.<br />
+						Configured an Ethereum Nodes using Geth and AWS EC2.	<br />
+						</p>
+					</li>
+	
+					  <li>
+						<h4 style="text-align: left;"><i class="resumePeriod">Since June 2018</i> Full Stack Developer, Blockterms</h4>
+						<p>
+						Built multiple single page applications for a blockchain based product using Vue JS, Webpack & Bulma CSS. <br>
+						Built REST APIs using Laravel, PHP. <br>
+						Built data-models for Google Cloud Datastore NoSQL database. <br>
+						Played with Docker & Microservices needed for the project. <br>
+					</li>
+	
+					<li>
+						<h4 style="text-align: left;"><i class="resumePeriod">2017-2018</i> Cybersecurity Research Assistant, University of Washington</h4>
+						<p>Involved in configuring security systems such as Honeypots and Intrusion Detection/Prevention Systems, developing python scripts and simulating attack scenarios to aid in formulating DDoS mitigation strategies. My responsibilities include:
+						Set up Linux and Windows Virtual Machines on VirtualBox to simulate DoS attacks.<br />
+						Developed Python scripts for parsing and filtering TCPDump logs. Python scripts are also being used to for TCP Reverse Shell and DoS attacks.<br />
+						Used Docker Containers to configure honeypots such as Conpot.<br />
+						Researched and experimented with various other honeypots such as HonyeBot for Windows.<br />
+						Developed documentation illustrating technical procedures such as setting up Honeypots and simulating DoS attack detection scenarios. <br />
+						Configured Raspberry Pi 3s to act as remote sensors for detecting DoS attacks. <br />
+						Led team meetings &amp; introduced new students to the project. <br />
+						Presented at the University of Washington's Undergraduate Symposium, 2018</p>
+					</li>
+	
+					<li>
+						<h4 style="text-align: left;">      
+							<i class="resumePeriod">2016</i>
+							IT Intern, Spocto
+						  </h4>
+						  <p>
+						- Worked with the development team to develop a dashboard interface for Spocto 360, a Customer Relations Management Software &amp; Marketing Platform. <br/>
+						- Introduced to Data Visualization: Conducted research &amp; development on Data Visualization Integration with D3.js (JavaScript framework) and ZoomCharts, so that Spocto's data could be visualized within the Spocto 360 Application. <br/>
+						- Experience in configuring and maintaining Intelligentia's publishing platform (WordPress). <br/>
+						- Database Management &amp; Integration: Set up a Relational Database to improve data management, organization &amp; usability. Developed a front-end interface for the database with MS-Access through which operations such as search could be carried out. <br/>
+						- Organized and integrated data from multiple sources so that customer profiles could be created and integrated within Spocto’s marketing platform. <br/>
+						- Learnt to write Visual Basic for Applications (VBA) to eliminate redundancy within tasks by automating data cleansing and uploading procedures. <br/></p>
+					</li>
+					  
+					<li>
+						<h4 style="text-align: left;">      
+							<i class="resumePeriod">2015</i>
+							IT Intern, KARVY Finance
+						  </h4>
+						<p>
+						-Introduced to Enterprise Resource Planning(ERP) Systems &amp; Customer Relations Management(CRM) Systems. <br> 
+						- Helped develop an in-house CRM system for KARVY Finance. <br>
+						- Learned about various software development models and the tools required to execute the core activities involved in the Software Development Life Cycle (SDLC). <br>
+						- Created a user manual for the CRM System supposed to be used for reference purposes.<br /></p>
+					</li>
+	
+					  </ul>
+					  </div>
+	
+					  </div>
+	
+					</section>
 				</div>
-			</div>
-		</section>
-		
+			</section>
+	
 		<section id="Education">
 			<div id="eduTime">
 				<h2 class="sectionHead">EDUCATION</h2>
@@ -86,7 +145,7 @@
 
 						<div class="cd-timeline-content">
 							<h2>University of Washington</h2>
-							<p><strong>Undergraduate | Bachelor of Science in Information Technology &amp; Systems</strong>
+							<p><strong>Bachelor of Science in Information Technology</strong>
 							<h4>Coursework</h4>
 							<ul>
 								<li>Software Development - Java, C, C#, Python, HTML, CSS, JavaScript, SQL, PHP, Android Development</li>
@@ -95,91 +154,11 @@
 								<li>System Administration - Windows Server &amp; Red Hat/Fedora Linux</li>
 							</ul></p>
 							<h4>Honors:</h4>
-							<p>2016-17, 2017-18 Annual Dean's List Awarded</p>
-							<span class="cd-date">Expected Graduation: Aug 18</span>
+							<p>2016-18 Annual Dean's List Awarded</p>
+							<span class="cd-date">Graduated: Aug 18</span>
 						</div> <!-- cd-timeline-content -->
 					</div> <!-- cd-timeline-block -->
 				</section> <!-- cd-timeline -->
-			</div>
-		</section>
-
-		<section id="Experience">
-			<div id="exp">
-				<section id="sectionResume">
-			      <div class="container">
-			      <!-- section TITLE -->
-			        <div class="sectionTitle wow fadeInUp">
-			        <h1>Experience</h1>
-			        <h4>recent work and volunteer experience</h4>
-			        <hr>
-			        </div>
-			      <!-- END section TITLE -->
-
-
-			      <div class="col-md-6 resumeEe resumeEd wow fadeInUp">
-
-
-			      <ul class="resumeList">
-
-			      <li><h3>WORK</h3></li>
-				
-				  <li>
-					<h4>
-						<i class="resumePeriod">2018-Present</i>
-						Programming Intern, Blockterms, Seattle, Washington
-					</h4>
-					<p>Involved in developing a web application to facilitate multi-partner financial agreements. Tasks include: <br />
-					- Programming <br />
-					- Domain Research <br />
-					- Debugging and Testing Applications <br />
-					- Building and Testing APIs <br />
-					- Documenting and Communicating technical ideas and issues <br />
-					- Technologies: Vagrant, HTML, Bulma CSS, Vue.js, PHP Laravel, Google Cloud</p>
-				</li>
-
-				<li>
-					<h4>
-						<i class="resumePeriod">2017-2018</i>
-						Cybersecurity Research Assistant, University of Washington
-					</h4>
-					<p>Involved in configuring security systems such as Honeypots and Intrusion Detection/Prevention Systems, developing python scripts and simulating attack scenarios to aid in formulating DDoS mitigation strategies. My responsibilities include:
-					- Set up Linux and Windows Virtual Machines on VirtualBox to simulate DoS attacks.<br />
-					- Developed Python scripts for parsing and filtering TCPDump logs. Python scripts are also being used to for TCP Reverse Shell and DoS attacks.<br />
-					- Used Docker Containers to configure honeypots such as Conpot.<br />
-					- Researched and experimented with various other honeypots such as HonyeBot for Windows.<br />
-					- Developed documentation illustrating technical procedures such as setting up Honeypots and simulating DoS attack detection scenarios. <br />
-					- Configured Raspberry Pi 3s to act as remote sensors for detecting DoS attacks. <br />
-					- Led team meetings &amp; introduced new students to the project. <br />
-					- Presented at the University of Washington's Undergraduate Symposium, 2018</p>
-				</li>
-
-				<li>
-			    	<h4>      
-						<i class="resumePeriod">2016</i>
-						IT Intern, Spocto, Mumbai
-			      	</h4>
-			      	<p>- Worked with the development team to develop a dashboard interface for Spocto 360, a Customer Relations Management Software &amp; Marketing Platform. <br/>
-					- Introduced to Data Visualization: Conducted research &amp; development on Data Visualization Integration with D3.js (JavaScript framework) and ZoomCharts, so that Spocto's data could be visualized within the Spocto 360 Application. <br/>
-					- Experience in configuring and maintaining Intelligentia's publishing platform (WordPress). <br/>
-					- Database Management &amp; Integration: Set up a Relational Database to improve data management, organization &amp; usability. Developed a front-end interface for the database with MS-Access through which operations such as search could be carried out. <br/>
-					- Organized and integrated data from multiple sources so that customer profiles could be created and integrated within Spocto’s marketing platform. <br/>
-					- Learnt to write Visual Basic for Applications (VBA) to eliminate redundancy within tasks by automating data cleansing and uploading procedures. <br/></p>
-				</li>
-				  
-				<li>
-			    	<h4>      
-						<i class="resumePeriod">2015</i>
-						IT Intern, KARVY Finance, Mumbai
-			      	</h4>
-			    	<p>I worked as an IT intern at KARVY Finance, a Non-Banking Financial Company in India. During my internship, I was introduced to Enterprise Resource Planning(ERP) Systems with emphasis on Customer Relations Management(CRM) Systems. As a member of the IT Team, I worked with a systems developer to develop an in-house CRM system for KARVY Finance. Although I didn't have all the skills required to develop such a system, I utilized this opportunity to learn about various software development models, and the tools required to execute the core activities involved in the Software Development Life Cycle (SDLC). I also prepared a user manual for the CRM System supposed to be used for reference purposes.<br /></p>
-			    </li>
-
-			      </ul>
-			      </div>
-
-			      </div>
-
-			    </section>
 			</div>
 		</section>
 
