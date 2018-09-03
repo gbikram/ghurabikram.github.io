@@ -1,233 +1,433 @@
-<html>
-	<head>
-		<title>Bikram Ghura</title>
-		<meta charset="utf-8" />
-		<link href="resume.css" type="text/css" rel="stylesheet" />
+<!DOCTYPE html>
+<html lang="en">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bakshi Ghura &amp; Co.</title>
+    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+    <!-- Bulma Version 0.7.1-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+</head>
 
-		<link href='//fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<body>
+    <nav class="navbar is-dark">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+            </a>
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
 
-		<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-		<script src="js/modernizr.js"></script> <!-- Modernizr -->
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="https://bulma.io/">
+                    About Us
+                </a>
+                <a class="navbar-item" href="https://bulma.io/">
+                    Products
+                </a>
+                <!-- <a class="navbar-item" href="https://bulma.io/">
+                    Tour
+                </a> -->
+                <a class="navbar-item" href="https://bulma.io/">
+                    Contact
+                </a>
+                <!-- <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="/documentation/overview/start/">
+                        More
+                    </a>
+                    <div class="navbar-dropdown is-boxed">
+                        <a class="navbar-item" href="/documentation/overview/start/">
+                            Mechandise
+                        </a>
+                        <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+                            Extras
+                        </a>
+                        <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                            Media
+                        </a>
+                    </div>
+                </div> -->
+            </div>
 
-		<link href="stylesheet.css" type="text/css" rel="stylesheet" />
-		<link href="bootstrap.css" type="text/css" rel="stylesheet" />
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field">
+                        <div class="control">
+                            <input class="input" type="text" placeholder="search . . .">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero is-info is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../">
+                            <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="#">
+                                    <span class="icon">
+                                        <i class="fa fa-home"></i>
+                                    </span>
+                                    <span>Home</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="#">
+                                    <span class="icon">
+                                        <i class="fa fa-superpowers"></i>
+                                    </span>
+                                    <span>Examples</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="#">
+                                    <span class="icon">
+                                        <i class="fa fa-book"></i>
+                                    </span>
+                                    <span>Documentation</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="https://github.com/dansup/bulma-templates/blob/master/templates/landing.html">
+                                    <span class="icon">
+                                        <i class="fa fa-github"></i>
+                                    </span>
+                                    <span>View Source</span>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            </div>
 
-		<script src="https://use.fontawesome.com/9f986bf637.js"></script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122906990-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="column is-6 is-offset-3">
+                        <h1 class="title">
+                            Coming Soon
+                        </h1>
+                        <h2 class="subtitle">
+                            $this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
+                        </h2>
+                        <div class="box">
+                            <div class="field is-grouped">
+                                <p class="control is-expanded">
+                                    <input class="input" type="text" placeholder="Enter your email">
+                                </p>
+                                <p class="control">
+                                    <a class="button is-info">
+                                        Notify Me
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-			gtag('config', 'UA-122906990-1');
-		</script>
+    </section>
+    <section class="hero">
+        <figure class="image">
+            <img src="./assets/imgs/pipes.jpg">
+        </figure>
+    </section>
 
-	</head>
+    <section class="section">
+        <div class="container has-text-centered">
+            <h2 class="title">About Us</h2>
+            <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-	<body>
-		<div id="navBar" style="text-align:center">
-			<ul>
-				<li><a href="#Experience">Experience</a></li>
-				<li><a href="#Education">Education</a></li>
-				<li><a href="#Projects">Projects</a></li>
-			</ul>
-		</div>
-		<section id="headImg">
-			<div id="topheader">
-				<img id="headimage" src="slide-00-320.svg" alt="pic">
-				<h1 id="name">BIKRAM GHURA</h1>
-				<a href="resume.pdf" target="_blank" style="display: block; text-align:center;"><button id="download">Résumé</button></a>
-			</div>
-		</section>
+            <div class="columns is-centered" style="padding: 2rem">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">John Smith</p>
+                                    <p class="subtitle is-6">@johnsmith</p>
+                                </div>
+                            </div>
 
-		<section id="Experience">
-				<div id="exp">
-					<section id="sectionResume">
-					  <div class="container">
-					  <!-- section TITLE -->
-						<div class="sectionTitle wow fadeInUp">
-						<h1>Experience</h1>
-						</div>
-					  <!-- END section TITLE -->
-	
-					  <div class="resumeEe resumeEd wow fadeInUp" style="border:none;">
-	
-	
-					  <ul class="resumeList">				
-					  <li>
-						<h4 style="text-align: left;"><i class="resumePeriod">Since Aug 2018</i> Back-end Developer, Stably Blockchain Labs</h4>
-						<p>
-						Developed APIs and microservices using Python (Flask) and AWS DynamoDB.<br />
-						Configured an Ethereum Nodes using Geth and AWS EC2.	<br />
-						</p>
-					</li>
-	
-					  <li>
-						<h4 style="text-align: left;"><i class="resumePeriod">Since June 2018</i> Full Stack Developer, Blockterms</h4>
-						<p>
-						Built multiple single page applications for a blockchain based product using Vue JS, Webpack & Bulma CSS. <br>
-						Built REST APIs using Laravel, PHP. <br>
-						Built data-models for Google Cloud Datastore NoSQL database. <br>
-						Played with Docker & Microservices needed for the project. <br>
-					</li>
-	
-					<li>
-						<h4 style="text-align: left;"><i class="resumePeriod">2017-2018</i> Cybersecurity Research Assistant, University of Washington</h4>
-						<p>
-						Developed scripts and deployed honeypots for a DoS mitigation system using Python, Bash & tcpdump packet sniffer. <br>
-						Deployed the scripts on Raspberry Pi devices. <br>								
-						Developed documentation providing walkthroughs to setup the development environment.<br />
-						Led team meetings &amp; introduced new students to the project. <br />
-						Presented at the University of Washington's Annual Symposium, 2018</p>
-					</li>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                <a>@bulmaio</a>.
+                                <a href="#">#css</a>
+                                <a href="#">#responsive</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">John Smith</p>
+                                    <p class="subtitle is-6">@johnsmith</p>
+                                </div>
+                            </div>
 
-					<li>
-						<h4 style="text-align: left;"><i class="resumePeriod">2017</i> IT Security Consultant, Rotator Creative</h4>
-						<p>
-						Conducted IT Security Assessment for a design studio: <br>
-						Evaluated critical assets. <br>
-						Identified threats through threat modeling. <br>
-						Conducted Vulnerability assessment on technical infrastructure. <br>
-						Developed risk mitigation strategies.
-						</p>
-					</li>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                <a>@bulmaio</a>.
+                                <a href="#">#css</a>
+                                <a href="#">#responsive</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://images.pexels.com/photos/167635/pexels-photo-167635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">John Smith</p>
+                                    <p class="subtitle is-6">@johnsmith</p>
+                                </div>
+                            </div>
 
-					<li>
-						<h4 style="text-align: left;"><i class="resumePeriod">2017</i> Full-Stack Development - Consulting, Bakshi Ghura & Co.</h4>
-						<p>
-						Built a sales portal & company website using Bootstrap, JavaScript, PHP, MariaDB.
-						</p>
-					</li>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                <a>@bulmaio</a>.
+                                <a href="#">#css</a>
+                                <a href="#">#responsive</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
-					<li>
-						<h4 style="text-align: left;"><i class="resumePeriod">2017</i> Solutions Developer - Consulting, West Thurston Fire Authority</h4>
-						<p>
-						Developed a fitness tracking application for firefighters with Caspio database and integrated it within the organization’s CMS. <br> 
-						Resolved existing issues within the CMS.</p>
-					</li>
-			
-					<li>
-						<h4 style="text-align: left;"><i class="resumePeriod">2017</i> Front-End Design Consulting, Topia Technology</h4>
-						<p>
-						Worked as the Project Manager and was responsible for conveying customer requirements to my team. <br>
-						Utilized UI and UX development concepts to evaluate the front-end design of our customer's product, Secrata, an Enterprise File Sync & Share Solution. <br>
-						Presented our UI and UX solutions to the Topia Technology Team in the form of a clickable prototype.</p>
-					</li>
+    <section class="section">
+        <div class="container has-text-centered">
+            <h2 class="title">Tour Dates</h2>
 
-					<li>
-						<h4 style="text-align: left;">      
-							<i class="resumePeriod">2016</i>
-							IT Intern, Spocto
-						</h4>
-						<p>
-						Helped develop the dashboard interface for Spocto 360, a CRM &amp; Marketing Platform using HTML, CSS &amp; JavaScript. <br/>
-						Introduced to Data Visualization: Conducted research &amp; development on Data Visualization Integration with D3 JS and ZoomCharts. <br/>
-						Set up a relational database with a front-end using MS Access. <br/>
-						Developed Visual Basic for Applications (VBA) to automate data import in MS Access.<br/></p>
-					</li>
-					  
-					<li>
-						<h4 style="text-align: left;">      
-							<i class="resumePeriod">2015</i>
-							IT Intern, KARVY Finance
-						  </h4>
-						<p>
-						Introduced to Enterprise Resource Planning(ERP) Systems &amp; Customer Relations Management(CRM) Systems. <br> 
-						Helped develop an in-house CRM system for KARVY Finance. <br>
-						Learned about various software development models and the tools required to execute the core activities involved in the Software Development Life Cycle (SDLC). <br>
-						Created a user manual for the CRM System supposed to be used for reference purposes.<br /></p>
-					</li>
-	
-					  </ul>
-					  </div>
-	
-					  </div>
-	
-					</section>
-				</div>
-			</section>
-	
-		<section id="Education">
-			<div id="eduTime">
-				<h2 class="sectionHead">EDUCATION</h2>
-				<section id="cd-timeline" class="cd-container">
-					<div class="cd-timeline-block">
-						<div class="cd-timeline-img" style="background-color: whitesmoke;">
-							<img src="http://www.ibo.org/globalassets/digital-tookit/logos-and-programme-models/ib-world-school-logo-2-colour-rev.png" alt="Movie">
-						</div> <!-- cd-timeline-img -->
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image">
+                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        </figure>
+                        <p class="title">New York</p>
+                        <p class="subtitle">Fri 27 Nov 2016</p>
+                        <a class="button">Buy Tickets</a>
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image">
+                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        </figure>
+                        <p class="title">New York</p>
+                        <p class="subtitle">Fri 27 Nov 2016</p>
+                        <a class="button">Buy Tickets</a>
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image">
+                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        </figure>
+                        <p class="title">New York</p>
+                        <p class="subtitle">Fri 27 Nov 2016</p>
+                        <a class="button">Buy Tickets</a>
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image">
+                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        </figure>
+                        <p class="title">New York</p>
+                        <p class="subtitle">Fri 27 Nov 2016</p>
+                        <a class="button">Buy Tickets</a>
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image">
+                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        </figure>
+                        <p class="title">New York</p>
+                        <p class="subtitle">Fri 27 Nov 2016</p>
+                        <a class="button">Buy Tickets</a>
+                    </article>
+                </div>
+            </div>
 
-						<div class="cd-timeline-content">
-							<h2>Jamnabai Narsee International School</h2>
-							<p><strong>International Baccalaureate Diploma Programme (IBDP)</strong></p>
-							<span class="cd-date">Jul 12 - Jul 14</span>
-						</div> <!-- cd-timeline-content -->
-					</div> <!-- cd-timeline-block -->
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image">
+                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        </figure>
+                        <p class="title">New York</p>
+                        <p class="subtitle">Fri 27 Nov 2016</p>
+                        <a class="button">Buy Tickets</a>
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image">
+                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        </figure>
+                        <p class="title">New York</p>
+                        <p class="subtitle">Fri 27 Nov 2016</p>
+                        <a class="button">Buy Tickets</a>
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image">
+                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        </figure>
+                        <p class="title">New York</p>
+                        <p class="subtitle">Fri 27 Nov 2016</p>
+                        <a class="button">Buy Tickets</a>
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image">
+                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        </figure>
+                        <p class="title">New York</p>
+                        <p class="subtitle">Fri 27 Nov 2016</p>
+                        <a class="button">Buy Tickets</a>
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child box">
+                        <figure class="image">
+                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                        </figure>
+                        <p class="title">New York</p>
+                        <p class="subtitle">Fri 27 Nov 2016</p>
+                        <a class="button">Buy Tickets</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<div class="cd-timeline-block">
-						<div class="cd-timeline-img" style="background-color: whitesmoke;">
-							<img src="http://image.flaticon.com/icons/png/512/5/5109.png" alt="Picture">
-						</div> <!-- cd-timeline-img -->
+    <section class="section columns">
+        <div class="container has-text-centered column is-10 is-offset-1">
+            <h2 class="title">Contact</h2>
 
-						<div class="cd-timeline-content">
-							<h2>University of Washington</h2>
-							<p><strong>Bachelor of Science in Information Technology</strong>
-								<h4>Coursework</h4>
-								<ul>
-									<li>Software Development - Java, C, C#, Python, HTML, CSS, JavaScript, SQL, PHP, Android Development</li>
-									<li>Information Networking - Fundamentals, Routing &amp; Switching</li>
-									<li>Information Assurance &amp; Security - PenTesting, Network &amp; Computer Security</li>
-									<li>System Administration - Windows Server &amp; Red Hat/Fedora Linux</li>
-								</ul>
-							</p>
-							<h4>Honors:</h4>
-							<p>2016-18 Annual Dean's List Awarded</p>
-							<span class="cd-date">Graduated: Aug 18</span>
-						</div> <!-- cd-timeline-content -->
-					</div> <!-- cd-timeline-block -->
+            <form>
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input" type="text" placeholder="Name">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input" type="email" placeholder="Email">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-					<div class="cd-timeline-block">
-							<div class="cd-timeline-img" style="background-color: whitesmoke;">
-								<img src="https://image.flaticon.com/icons/png/512/326/326927.png" alt="Picture">
-							</div> <!-- cd-timeline-img -->
-	
-							<div class="cd-timeline-content">
-								<h2>Online Courses</h2>
-								<h4>edX</h4>
-								<ul>
-									<li>Introduction to FinTech, HKUx</li>
-									<li>Bitcoin and Cryptocurrencies, BerkeleyX</li>
-								</ul></p>
-							</div> <!-- cd-timeline-content -->
-						
-				</section> <!-- cd-timeline -->
-			</div>
-		</section>
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Message us"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-		<section id="Projects">
-			<div id="proj">
-				<h2 class="sectionHead">PROJECTS</h2>
-				<div>
-					<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1NF7Rba-woXBjI2O-xVqJ6ry_nAdnm1AAp8abV-hq7wA&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' frameborder='0'></iframe>
-				</div>
-			</div>
-		</section>
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-primary">
+                                    Send message
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
 
-		<section id="footer">
-			<div id="end">
-				<span>Made with <i class="fa fa-heart" aria-hidden="true"></i> in Seattle</span>
-				<div id="social">
-    			<!--	<i class="fa fa-facebook-square fa-2x"></i> -->
-    				<a href="https://www.linkedin.com/in/bikramjeetsinghghura" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-    				<a href="https://www.github.com/ghurabikram" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-					<a href="mailto:ghurabikram@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
-					<br />
-					<a href="mailto:ghurabikram@gmail.com">ghurabikram@gmail.com</a>
-				</div>
-			</div>
-		</section>
-	</body>
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    <a href="">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-snapchat fa-2x"></i>
+                    </a>
+                </p>
+                <p>
+                    <a href="https://bulma.io">
+                        <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+        <script async type="text/javascript" src="../js/bulma.js"></script>
+</body>
+
 </html>
-			      
