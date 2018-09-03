@@ -63,6 +63,11 @@
                         Back-End Developer, Stably Blockchain Labs
                         </p>
                         <span class="tag is-primary exp-date">Since Aug 2018</span>
+                        <a href="#" class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </a>
                     </header>
                     <div class="card-content">
                         <div class="content">
@@ -80,6 +85,11 @@
                         Full-Stack Developer, Blockterms
                         </p>
                         <span class="tag is-primary exp-date">Since June 2018</span>
+                        <a href="#" class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </a>
                     </header>
                     <div class="card-content">
                         <div class="content">
@@ -350,12 +360,37 @@
             el: '#app',
 
             data: {
-
+                exp : {
+                    exp1 : false,
+                    exp2 : false,
+                    exp3 : false,
+                    exp4 : false,
+                    exp5 : false,
+                }
             },
 
             methods: {
                 helloworld() {
                     console.log('tom')
+                },
+
+                toggleExp(exp) {
+                    switch (exp) {
+                        case 1:
+                            this.exp.exp1 = !this.exp.exp1
+                            break;
+                    
+                        case 2:
+                            this.exp.exp1 = !this.exp.exp1
+                            break;
+                
+                        case 3:
+                            this.exp.exp1 = !this.exp.exp1
+                            break;
+
+                        default:
+                            break;
+                    }
                 }
             },
         })
