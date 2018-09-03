@@ -12,349 +12,353 @@
     <link rel="stylesheet" href="./assets/css/style.css" />    
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+    <!-- Vue JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 
 <body>
-    <section class="hero is-info is-fullheight landing-section">
-        <nav class="navbar is-transparent">
-            <div class="navbar-start">
-                <a class="navbar-item" href="https://bulma.io/">
-                    Experience
-                </a>
-                <a class="navbar-item" href="https://bulma.io/">
-                    Skills
-                </a>
-                <a class="navbar-item" href="https://bulma.io/">
-                    Education
-                </a>
-                <a class="navbar-item" href="https://bulma.io/">
-                    Projects
-                </a>
+    <div id="app">
+        <section class="hero is-info is-fullheight landing-section">
+            <nav class="navbar is-transparent">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="https://bulma.io/">
+                        Experience
+                    </a>
+                    <a class="navbar-item" href="https://bulma.io/">
+                        Skills
+                    </a>
+                    <a class="navbar-item" href="https://bulma.io/">
+                        Education
+                    </a>
+                    <a class="navbar-item" href="https://bulma.io/">
+                        Projects
+                    </a>
+                </div>
+            </nav>
+                    
+            <div class="hero-body">            
+                <div class="columns full-col">
+                    <div class="column is-narrow">
+                        <img src="./assets/imgs/landingback.svg">
+                    </div>
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 name-title">BIKRAM GHURA</h1>
+                        <!-- <h2 class="subtitle">
+                            this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
+                        </h2> -->
+                        <a class="button is-large cv is-outlined is-primary" href="./assets/files/cv-BikramGhura.pdf" target="blank">Résumé</a>
+                    </div>
+                </div>
             </div>
-        </nav>
+
+        </section>
+
+        <section class="section exp">
+            <div class="container">
+                <h2 class="title has-text-centered">Experience</h2>
+
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                        Back-End Developer, Stably Blockchain Labs
+                        </p>
+                        <span class="tag is-primary exp-date">Since Aug 2018</span>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <ul>
+                                <li>Built APIs and microservices using Python (Flask) and AWS DynamoDB.</li>
+                                <li>Configured an Ethereum Nodes using Geth and AWS EC2.</li>
+                            </ul>	
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                        Full-Stack Developer, Blockterms
+                        </p>
+                        <span class="tag is-primary exp-date">Since June 2018</span>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <ul>
+                                <li>Built multiple single page applications for a blockchain based product using Vue JS, Webpack & Bulma CSS.</li> 
+                                <li>Built REST APIs using Laravel, PHP.</li> 
+                                <li>Built data-models for Google Cloud Datastore NoSQL database.</li> 
+                                <li>Played with Docker & Microservices needed for the project.</li> 
+                            </ul>	
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                        Cybersecurity Research Assistant, University of Washington | T-Mobile
+                        </p>
+                        <span class="tag is-primary exp-date">2017 - 2018</span>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <ul>
+                                <li>Developed scripts and deployed honeypots for a DoS mitigation system using Python, Bash & tcpdump packet sniffer.</li> 
+                                <li>Deployed the scripts on Raspberry Pi devices.</li> 
+                                <li>Developed documentation providing walkthroughs to setup the development environment.</li>
+                                <li>Led team meetings & introduced new students to the project.</li> 
+                                <li>Presented at the University of Washington's Annual Symposium, 2018.</li> 
+                            </ul>	
+                        </div>
+                    </div>
+                </div>
+
                 
-        <div class="hero-body">            
-            <div class="columns full-col">
-                <div class="column is-narrow">
-                    <img src="./assets/imgs/landingback.svg">
-                </div>
-                <div class="column has-text-centered">
-                    <h1 class="title is-1 name-title">BIKRAM GHURA</h1>
-                    <!-- <h2 class="subtitle">
-                        this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world.
-                    </h2> -->
-                    <a class="button is-large cv is-outlined is-primary" href="./assets/files/cv-BikramGhura.pdf" target="blank">Résumé</a>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="section exp">
-        <div class="container">
-            <h2 class="title has-text-centered">Experience</h2>
-            
-            <div class="card">
-                <header class="card-header">
-                    <p class="card-header-title">
-                    Back-End Developer, Stably Blockchain Labs
-                    </p>
-                    <span class="tag is-primary exp-date">Since Aug 2018</span>
-                </header>
-                <div class="card-content">
-                    <div class="content">
-                        <ul>
-                            <li>Built APIs and microservices using Python (Flask) and AWS DynamoDB.</li>
-                            <li>Configured an Ethereum Nodes using Geth and AWS EC2.</li>
-                        </ul>	
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <header class="card-header">
-                    <p class="card-header-title">
-                    Full-Stack Developer, Blockterms
-                    </p>
-                    <span class="tag is-primary exp-date">Since June 2018</span>
-                </header>
-                <div class="card-content">
-                    <div class="content">
-                        <ul>
-                            <li>Built multiple single page applications for a blockchain based product using Vue JS, Webpack & Bulma CSS.</li> 
-                            <li>Built REST APIs using Laravel, PHP.</li> 
-                            <li>Built data-models for Google Cloud Datastore NoSQL database.</li> 
-                            <li>Played with Docker & Microservices needed for the project.</li> 
-                        </ul>	
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <header class="card-header">
-                    <p class="card-header-title">
-                    Cybersecurity Research Assistant, University of Washington | T-Mobile
-                    </p>
-                    <span class="tag is-primary exp-date">2017 - 2018</span>
-                </header>
-                <div class="card-content">
-                    <div class="content">
-                        <ul>
-                            <li>Developed scripts and deployed honeypots for a DoS mitigation system using Python, Bash & tcpdump packet sniffer.</li> 
-                            <li>Deployed the scripts on Raspberry Pi devices.</li> 
-                            <li>Developed documentation providing walkthroughs to setup the development environment.</li>
-                            <li>Led team meetings & introduced new students to the project.</li> 
-                            <li>Presented at the University of Washington's Annual Symposium, 2018.</li> 
-                        </ul>	
-                    </div>
-                </div>
-            </div>
-
-            
-            <div class="card">
-                <header class="card-header">
-                    <p class="card-header-title">
-                    Information Security Consulting, Rotator Creative
-                    </p>
-                    <span class="tag is-primary exp-date">2017</span>
-                </header>
-                <div class="card-content">
-                    <div class="content">
-                        <ul>
-                            <li>Evaluated critical assets.</li> 
-                            <li>Identified threats through threat modeling.</li> 
-                            <li>Conducted Vulnerability assessment on technical infrastructure.</li> 
-                            <li>Developed risk mitigation strategies.</li> 
-                        </ul>	
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <header class="card-header">
-                    <p class="card-header-title">
-                    Consulting - Full-Stack Development, Bakshi Ghura & Co.
-                    </p>
-                    <span class="tag is-primary exp-date">2017</span>
-                </header>
-                <div class="card-content">
-                    <div class="content">
-                        <ul>
-                            <li>Built a sales portal & company website using Bootstrap, JavaScript, PHP, MariaDB.</li>
-                        </ul>	
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <header class="card-header">
-                    <p class="card-header-title">
-                    Consulting - Solutions Development, West Thurston Fire Authority
-                    </p>
-                    <span class="tag is-primary exp-date">2017</span>
-                </header>
-                <div class="card-content">
-                    <div class="content">
-                        <ul>
-                            <li>Developed a fitness tracking application for firefighters with Caspio database and integrated it within the organization’s CMS.</li>  
-                            <li>Resolved existing issues within the CMS.</li>
-                        </ul>	
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container has-text-centered">
-            <h2 class="title">Tour Dates</h2>
-
-            <div class="tile is-ancestor">
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-            </div>
-
-            <div class="tile is-ancestor">
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child box">
-                        <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                        </figure>
-                        <p class="title">New York</p>
-                        <p class="subtitle">Fri 27 Nov 2016</p>
-                        <a class="button">Buy Tickets</a>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section columns">
-        <div class="container has-text-centered column is-10 is-offset-1">
-            <h2 class="title">Contact</h2>
-
-            <form>
-                <div class="field is-horizontal">
-                    <div class="field-body">
-                        <div class="field">
-                            <p class="control has-icons-left">
-                                <input class="input" type="text" placeholder="Name">
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-user"></i>
-                                </span>
-                            </p>
-                        </div>
-                        <div class="field">
-                            <p class="control has-icons-left has-icons-right">
-                                <input class="input" type="email" placeholder="Email">
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
-                                </span>
-                            </p>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                        Information Security Consulting, Rotator Creative
+                        </p>
+                        <span class="tag is-primary exp-date">2017</span>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <ul>
+                                <li>Evaluated critical assets.</li> 
+                                <li>Identified threats through threat modeling.</li> 
+                                <li>Conducted Vulnerability assessment on technical infrastructure.</li> 
+                                <li>Developed risk mitigation strategies.</li> 
+                            </ul>	
                         </div>
                     </div>
                 </div>
 
-                <div class="field is-horizontal">
-                    <div class="field-body">
-                        <div class="field">
-                            <div class="control">
-                                <textarea class="textarea" placeholder="Message us"></textarea>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                        Consulting - Full-Stack Development, Bakshi Ghura & Co.
+                        </p>
+                        <span class="tag is-primary exp-date">2017</span>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <ul>
+                                <li>Built a sales portal & company website using Bootstrap, JavaScript, PHP, MariaDB.</li>
+                            </ul>	
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                        Consulting - Solutions Development, West Thurston Fire Authority
+                        </p>
+                        <span class="tag is-primary exp-date">2017</span>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <ul>
+                                <li>Developed a fitness tracking application for firefighters with Caspio database and integrated it within the organization’s CMS.</li>  
+                                <li>Resolved existing issues within the CMS.</li>
+                            </ul>	
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container has-text-centered">
+                <h2 class="title">Tour Dates</h2>
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <figure class="image">
+                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            </figure>
+                            <p class="title">New York</p>
+                            <p class="subtitle">Fri 27 Nov 2016</p>
+                            <a class="button">Buy Tickets</a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <figure class="image">
+                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            </figure>
+                            <p class="title">New York</p>
+                            <p class="subtitle">Fri 27 Nov 2016</p>
+                            <a class="button">Buy Tickets</a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <figure class="image">
+                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            </figure>
+                            <p class="title">New York</p>
+                            <p class="subtitle">Fri 27 Nov 2016</p>
+                            <a class="button">Buy Tickets</a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <figure class="image">
+                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            </figure>
+                            <p class="title">New York</p>
+                            <p class="subtitle">Fri 27 Nov 2016</p>
+                            <a class="button">Buy Tickets</a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <figure class="image">
+                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            </figure>
+                            <p class="title">New York</p>
+                            <p class="subtitle">Fri 27 Nov 2016</p>
+                            <a class="button">Buy Tickets</a>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <figure class="image">
+                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            </figure>
+                            <p class="title">New York</p>
+                            <p class="subtitle">Fri 27 Nov 2016</p>
+                            <a class="button">Buy Tickets</a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <figure class="image">
+                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            </figure>
+                            <p class="title">New York</p>
+                            <p class="subtitle">Fri 27 Nov 2016</p>
+                            <a class="button">Buy Tickets</a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <figure class="image">
+                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            </figure>
+                            <p class="title">New York</p>
+                            <p class="subtitle">Fri 27 Nov 2016</p>
+                            <a class="button">Buy Tickets</a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <figure class="image">
+                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            </figure>
+                            <p class="title">New York</p>
+                            <p class="subtitle">Fri 27 Nov 2016</p>
+                            <a class="button">Buy Tickets</a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child box">
+                            <figure class="image">
+                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            </figure>
+                            <p class="title">New York</p>
+                            <p class="subtitle">Fri 27 Nov 2016</p>
+                            <a class="button">Buy Tickets</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section columns">
+            <div class="container has-text-centered column is-10 is-offset-1">
+                <h2 class="title">Contact</h2>
+
+                <form>
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field">
+                                <p class="control has-icons-left">
+                                    <input class="input" type="text" placeholder="Name">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="field">
+                                <p class="control has-icons-left has-icons-right">
+                                    <input class="input" type="email" placeholder="Email">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="field is-horizontal">
-                    <div class="field-body">
-                        <div class="field">
-                            <div class="control">
-                                <button class="button is-primary">
-                                    Send message
-                                </button>
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <textarea class="textarea" placeholder="Message us"></textarea>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </form>
-        </div>
-    </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="content has-text-centered">
-                <p>
-                    <a href="">
-                        <i class="fab fa-facebook-square fa-2x"></i>
-                    </a>
-                    <a href="">
-                        <i class="fab fa-twitter-square fa-2x"></i>
-                    </a>
-                    <a href="">
-                        <i class="fab fa-instagram fa-2x"></i>
-                    </a>
-                    <a href="">
-                        <i class="fab fa-snapchat fa-2x"></i>
-                    </a>
-                </p>
-                <p>
-                    <a href="https://bulma.io">
-                        <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-                    </a>
-                </p>
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <button class="button is-primary">
+                                        Send message
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </div>
-    </footer>
-        <script async type="text/javascript" src="../js/bulma.js"></script>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <p>
+                        <a href="">
+                            <i class="fab fa-snapchat fa-2x"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var app = new Vue({
+            el: '#app',
+
+            data: {
+
+            },
+
+            methods: {
+                helloworld() {
+                    console.log('tom')
+                }
+            },
+        })
+    </script>
 </body>
-
 </html>
