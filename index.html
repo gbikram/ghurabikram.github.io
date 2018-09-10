@@ -21,16 +21,16 @@
         <section class="hero is-info is-fullheight landing-section">
             <nav class="navbar is-transparent">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="https://bulma.io/">
+                    <a class="navbar-item" href="#exp">
                         Experience
                     </a>
-                    <a class="navbar-item" href="https://bulma.io/">
+                    <a class="navbar-item" href="#skills">
                         Skills
                     </a>
-                    <a class="navbar-item" href="https://bulma.io/">
+                    <a class="navbar-item" href="#proj">
                         Education
                     </a>
-                    <a class="navbar-item" href="https://bulma.io/">
+                    <a class="navbar-item" href="#contact">
                         Projects
                     </a>
                 </div>
@@ -53,7 +53,7 @@
 
         </section>
 
-        <section class="section exp">
+        <section class="section exp" id="exp">
             <div class="container">
                 <h2 class="title has-text-centered">Experience</h2>
 
@@ -63,13 +63,13 @@
                         Back-End Developer, Stably Blockchain Labs
                         </p>
                         <span class="tag is-primary exp-date">Since Aug 2018</span>
-                        <a href="#" class="card-header-icon" aria-label="more options">
+                        <a class="card-header-icon" @click="toggleExp(1)">
                             <span class="icon">
-                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                <i class="fas fa-angle-down"></i>
                             </span>
                         </a>
                     </header>
-                    <div class="card-content">
+                    <div class="card-content" v-show="exp.exp1">
                         <div class="content">
                             <ul>
                                 <li>Built APIs and microservices using Python (Flask) and AWS DynamoDB.</li>
@@ -85,13 +85,13 @@
                         Full-Stack Developer, Blockterms
                         </p>
                         <span class="tag is-primary exp-date">Since June 2018</span>
-                        <a href="#" class="card-header-icon" aria-label="more options">
+                        <a class="card-header-icon" @click="toggleExp(2)">
                             <span class="icon">
                                 <i class="fas fa-angle-down" aria-hidden="true"></i>
                             </span>
                         </a>
                     </header>
-                    <div class="card-content">
+                    <div class="card-content" v-show="exp.exp2">
                         <div class="content">
                             <ul>
                                 <li>Built multiple single page applications for a blockchain based product using Vue JS, Webpack & Bulma CSS.</li> 
@@ -179,123 +179,73 @@
             </div>
         </section>
 
-        <section class="section">
-            <div class="container has-text-centered">
-                <h2 class="title">Tour Dates</h2>
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <h2 class="title has-text-centered">Skills</h2>
+                <div class="columns">
+                    <div class="column">
+                        <ul>
+                            <li><strong>Programming</strong></li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>C#</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>Data Structures &amp; Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <ul>
+                            <li><strong>Web Development</strong></li>
+                            <li>HTML5</li>
+                            <li>CSS - Bulma, Bootstrap</li>
+                            <li>Client Side - Vue JS, jQuery</li>
+                            <li>Server Side - PHP Laravel, Python Flask, .NET, MVC</li>
+                        </ul>
+                    </div>
 
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <figure class="image">
-                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                            </figure>
-                            <p class="title">New York</p>
-                            <p class="subtitle">Fri 27 Nov 2016</p>
-                            <a class="button">Buy Tickets</a>
-                        </article>
+                    <div class="column">
+                        <ul>
+                            <li><strong>Database Design &amp; Development</strong></li>
+                            <li>Relational (SQL)</li>
+                            <li>NoSQL</li>
+                        </ul>
                     </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <figure class="image">
-                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                            </figure>
-                            <p class="title">New York</p>
-                            <p class="subtitle">Fri 27 Nov 2016</p>
-                            <a class="button">Buy Tickets</a>
-                        </article>
-                    </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <figure class="image">
-                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                            </figure>
-                            <p class="title">New York</p>
-                            <p class="subtitle">Fri 27 Nov 2016</p>
-                            <a class="button">Buy Tickets</a>
-                        </article>
-                    </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <figure class="image">
-                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                            </figure>
-                            <p class="title">New York</p>
-                            <p class="subtitle">Fri 27 Nov 2016</p>
-                            <a class="button">Buy Tickets</a>
-                        </article>
-                    </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <figure class="image">
-                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                            </figure>
-                            <p class="title">New York</p>
-                            <p class="subtitle">Fri 27 Nov 2016</p>
-                            <a class="button">Buy Tickets</a>
-                        </article>
-                    </div>
-                </div>
 
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <figure class="image">
-                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                            </figure>
-                            <p class="title">New York</p>
-                            <p class="subtitle">Fri 27 Nov 2016</p>
-                            <a class="button">Buy Tickets</a>
-                        </article>
+                    <div class="column">
+                        <ul>
+                            <li><strong>Mobile Development</strong></li>
+                            <li>Android Studio (Java)</li>
+                            <li>Vue Native</li>
+                            <li>NativeBase</li>
+                        </ul>
                     </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <figure class="image">
-                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                            </figure>
-                            <p class="title">New York</p>
-                            <p class="subtitle">Fri 27 Nov 2016</p>
-                            <a class="button">Buy Tickets</a>
-                        </article>
+                    
+                    <div class="column">
+                        <ul>
+                            <li><strong>Network &amp; Computer Security</strong></li>
+                            <li>Penetration Testing</li>
+                            <li>Kali Linux</li>
+                            <li>Linux/Windows System Hardening</li>
+                        </ul>
                     </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <figure class="image">
-                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                            </figure>
-                            <p class="title">New York</p>
-                            <p class="subtitle">Fri 27 Nov 2016</p>
-                            <a class="button">Buy Tickets</a>
-                        </article>
-                    </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <figure class="image">
-                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                            </figure>
-                            <p class="title">New York</p>
-                            <p class="subtitle">Fri 27 Nov 2016</p>
-                            <a class="button">Buy Tickets</a>
-                        </article>
-                    </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <figure class="image">
-                                <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
-                            </figure>
-                            <p class="title">New York</p>
-                            <p class="subtitle">Fri 27 Nov 2016</p>
-                            <a class="button">Buy Tickets</a>
-                        </article>
-                    </div>
+                    
                 </div>
             </div>
         </section>
 
-        <section class="section columns">
+        <section class="section" id="proj">
+            <div class="content has-text-centered">
+                <h2 class="title">Projects</h2>
+                <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1NF7Rba-woXBjI2O-xVqJ6ry_nAdnm1AAp8abV-hq7wA&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+            </div>
+        </section>
+
+        <section class="section columns" id="contact">
             <div class="container has-text-centered column is-10 is-offset-1">
                 <h2 class="title">Contact</h2>
 
-                <form>
                     <div class="field is-horizontal">
                         <div class="field-body">
                             <div class="field">
@@ -331,14 +281,13 @@
                         <div class="field-body">
                             <div class="field">
                                 <div class="control">
-                                    <button class="button is-primary">
+                                    <button class="button is-primary" @click="helloworld()">
                                         Send message
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </form>
             </div>
         </section>
 
@@ -381,11 +330,11 @@
                             break;
                     
                         case 2:
-                            this.exp.exp1 = !this.exp.exp1
+                            this.exp.exp2 = !this.exp.exp1
                             break;
                 
                         case 3:
-                            this.exp.exp1 = !this.exp.exp1
+                            this.exp.exp3 = !this.exp.exp1
                             break;
 
                         default:

@@ -43,3 +43,7 @@ li {
 .exp > .container > .card {
     margin-bottom: 10px;
 }
+
+.skills-section {
+    background-color: #80808036;
+}
