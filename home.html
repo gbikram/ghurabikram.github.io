@@ -73,8 +73,10 @@
                     <div class="card-content" v-show="exp.exp1">
                         <div class="content">
                             <ul>
-                                <li>Involved in Incidence Response.</li>
-                                <li>Developing tools for process automation.</li>
+                                <li>Incidence Analysis & Response.</li>
+                                <li>Tools development for process automation.</li>
+                                <li>Threat Hunting</li>
+                                <li>Malware Analysis</li>
                             </ul>
                         </div>
                     </div>
@@ -86,7 +88,7 @@
                         <p class="card-header-title">
                             Back-End Developer, Stably Blockchain Labs
                         </p>
-                        <span class="tag is-primary exp-date">Since Aug 2018</span>
+                        <span class="tag is-primary exp-date">Aug 2018 - Oct 2018</span>
                         <a class="card-header-icon" @click="toggleExp(2)">
                             <span class="icon">
                                 <i class="fas fa-angle-down"></i>
@@ -108,7 +110,7 @@
                         <p class="card-header-title">
                             Full-Stack Developer, Blockterms
                         </p>
-                        <span class="tag is-primary exp-date">Since June 2018</span>
+                        <span class="tag is-primary exp-date">June 2018 - Oct 2018</span>
                         <a class="card-header-icon" @click="toggleExp(3)">
                             <span class="icon">
                                 <i class="fas fa-angle-down" aria-hidden="true"></i>
@@ -195,7 +197,8 @@
                     <div class="card-content" v-show="exp.exp6">
                         <div class="content">
                             <ul>
-                                <li>Built a sales portal & company website using Bootstrap, JavaScript, PHP, MariaDB.</li>
+                                <li>Built a sales portal & company website using Bootstrap, JavaScript, PHP, MariaDB.
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -283,6 +286,7 @@
                             <li>C#</li>
                             <li>JavaScript</li>
                             <li>PHP</li>
+                            <li>Golang</li>
                             <li>Data Structures &amp; Algorithms</li>
                         </ul>
                     </div>
@@ -320,6 +324,7 @@
                             <li>Wireshark/TCPDump</li>
                             <li>PenTesting & Kali Linux</li>
                             <li>Linux/Windows System Hardening</li>
+                            <li>Malware Analysis</li>
                         </ul>
                     </div>
 
@@ -331,15 +336,75 @@
         <section class="section edu">
             <h2 class="title has-text-centered">Education</h2>
             <div class="container">
-                <h6 class="subtitle is-6">Bachelor of Science (B.Sc) in Information Technology, University of Washington</h6>
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="./assets/imgs/uw.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>University of Washington</strong> <small>2014-2018</small>
+                                    <br>
+                                    Bachelor of Science (B.Sc) in Information Technology
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="./assets/imgs/ibdp.png" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>Jamnabai Narsee School</strong> <small>2012-2014</small>
+                                    <br>
+                                    International Baccalaureate® (IB) Diploma Programme (DP)
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="./assets/imgs/online-learning.png" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>Online Coursework</strong> 
+                                    <br>
+                                    <ul>
+                                        <li>Bitcoin & Cryptocurrencies, BerkeleyX, edX </li>
+                                        <li>Fintech, HKUX, edX </li>
+                                        <li>Microsoft .NET development, Udactiy</li>
+                                        <li>Malware Analysis, Pluralsight</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
 
         <section class="section" id="proj">
             <h2 class="title has-text-centered">Projects</h2>
             <div class="content">
-                <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1NF7Rba-woXBjI2O-xVqJ6ry_nAdnm1AAp8abV-hq7wA&font=Default&lang=en&initial_zoom=2&height=650'
-                    width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+                <iframe
+                    src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1NF7Rba-woXBjI2O-xVqJ6ry_nAdnm1AAp8abV-hq7wA&font=Default&lang=en&initial_zoom=2&height=650'
+                    width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen
+                    frameborder='0'></iframe>
             </div>
         </section>
 
@@ -462,7 +527,7 @@
                             break;
 
                         case 8:
-                            this.exp.exp8 = !this.exp.exp9
+                            this.exp.exp8 = !this.exp.exp8
                             break;
 
                         case 9:
